@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mount Treasures – handmade shell jewellery</title>
+  <meta name="description" content="Mount Treasures handmade shell jewellery – earrings and necklaces. Follow on Facebook & Instagram, or shop on Etsy." />
+
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#111827;
+      --muted:#4b5563;
+      --card:#f9fafb;
+      --border:#e5e7eb;
+      --link:#0f766e;
+      --link2:#115e59;
+      --max: 980px;
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.55;
+    }
+    header{
+      border-bottom:1px solid var(--border);
+      background:linear-gradient(180deg, #f0fdfa 0%, #ffffff 70%);
+    }
+    .wrap{ max-width:var(--max); margin:0 auto; padding:28px 18px; }
+    .brand{
+      display:flex; align-items:baseline; justify-content:space-between; gap:14px; flex-wrap:wrap;
+    }
+    .brand h1{ margin:0; font-size: clamp(28px, 3.2vw, 40px); letter-spacing:-0.02em; }
+    .brand .tag{ color:var(--muted); font-weight:600; }
+    nav{
+      margin-top:14px;
+      display:flex; gap:10px; flex-wrap:wrap;
+    }
+    nav a{
+      display:inline-block;
+      padding:10px 12px;
+      border:1px solid var(--border);
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--link);
+      background:#fff;
+      font-weight:600;
+    }
+    nav a:hover{ color:var(--link2); border-color:#cbd5e1; }
+    .intro{
+      margin-top:18px;
+      color:var(--muted);
+      font-size: 1.02rem;
+    }
+
+    main{ padding:26px 0 40px; }
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap:14px;
+    }
+    .card{
+      grid-column: span 12;
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:18px;
+    }
+    @media (min-width: 860px){
+      .card.half{ grid-column: span 6; }
+      .card.third{ grid-column: span 4; }
+    }
+    h2{ margin:0 0 8px; font-size: 1.35rem; }
+    h3{ margin:0 0 8px; font-size: 1.1rem; }
+    p{ margin:0 0 10px; color:var(--muted); }
+    .btn{
+      display:inline-block;
+      margin-top:6px;
+      padding:10px 12px;
+      border-radius:12px;
+      background:#ffffff;
+      border:1px solid var(--border);
+      color:var(--link);
+      text-decoration:none;
+      font-weight:700;
+    }
+    .btn:hover{ color:var(--link2); border-color:#cbd5e1; }
+
+    footer{
+      border-top:1px solid var(--border);
+      padding:20px 0;
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+    .small{ font-size:0.95rem; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <h1>Mount Treasures</h1>
+        <div class="tag">Handmade shell jewellery</div>
+      </div>
+
+      <nav aria-label="Primary">
+        <a href="#links">Follow & Shop</a>
+        <a href="#custom">Original & Custom Designs</a>
+        <a href="#collections">Collections</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <p class="intro">
+        We now have a wide selection of earrings and necklaces available. The beauty of shells is that each tiny creature creates a unique structure that will be its home for its entire life. For this reason shells can be seen as symbols of self-resilience, strength, and independence. Shells are more intricate and rival anything made by humans in their sheer beauty, strength and precision. Have a look at the website to see some of my earring and necklace creations. We now have earrings, necklaces, photographs for you to view.
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="links" class="grid" aria-label="Follow and shop links">
+      <div class="card third">
+        <h2>Follow us on Facebook</h2>
+        <p>See our new designs, ideas and fun photos taken in Mount Maunganui.</p>
+        <a class="btn" href="https://www.facebook.com/mount.treasures" target="_blank" rel="noopener">Open Facebook</a>
+      </div>
+
+      <div class="card third">
+        <h2>Follow us on Instagram</h2>
+        <p>See what we are up to and where we are at.</p>
+        <a class="btn" href="https://www.instagram.com/mounttreasures/" target="_blank" rel="noopener">Open Instagram</a>
+      </div>
+
+      <div class="card third">
+        <h2>Shop on Etsy</h2>
+        <p>Our Etsy Online Store is where you can buy my creations — why not drop in and have a look.</p>
+        <a class="btn" href="https://www.etsy.com/shop/mounttreasuresnz/?etsrc=sdt" target="_blank" rel="noopener">Open Etsy Store</a>
+      </div>
+    </section>
+
+    <section id="custom" class="grid" aria-label="Custom designs">
+      <div class="card">
+        <h2>Original and Custom Designs</h2>
+        <p>
+          If you have a treasured single shell or pair of shells, or even a single item that we could try and match — then why not let me turn this into your forever piece of jewellery? You can see from our range that we have a selection of shells in colors and sizes to choose from and we do try to match what you already have. Alternatively, specify the shells and finish that you want and we will do our best to help.
+        </p>
+        <p class="small">
+          Please email us on <a href="mailto:contact@mounttreasures.co.nz">contact@mounttreasures.co.nz</a> for further details. Enclosing a photograph of what you already have (if you want a match) would help.
+        </p>
+      </div>
+    </section>
+
+    <section id="collections" class="grid" aria-label="Collections">
+      <div class="card half">
+        <h2>Shell Earrings</h2>
+        <p>
+          Shells are commonly referred to as jewels of the sea as they were often used as an early form of jewellery, especially as simple necklaces. Some shell necklaces have even been dated back to 7000 BC (the Stone Age). I work very carefully to bring pieces together to make sets of beautiful earrings. I hope you can appreciate my shell earrings as much as I do. Enjoy the beauty of these stunning shells as earrings too. Each pair has been individually crafted with love and care.
+        </p>
+        <p class="small">
+          No two are ever identical. The shepherd hooks come in either dark silver, bright silver or rose gold.
+        </p>
+      </div>
+
+      <div class="card half">
+        <h2>Myadora Earrings and Necklaces</h2>
+        <p>
+          This is my signature design. It was the first shell I ever picked up and I just knew it needed to be crafted into something special. The species is known as Myadora (hence the name) which has very ancient origins. The shell is exactly as it is found. The only attention I give the shell is a very thin layer of varnish to deepen the natural colour.
+        </p>
+        <p class="small">
+          As you wear it, you can feel the energy of the ocean and I feel it symbolises resilience and independence. I hope you enjoy wearing it as much as I do.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Shell Necklaces</h2>
+        <p>
+          All of my shell necklaces come on an adjustable double knot black cord and can be adjusted to alter the length. Each necklace starts as a humble shell and is fashioned to become a unique piece. Shells are both beautiful and versatile and are celebrated all over the World by many different cultures.
+        </p>
+        <p class="small">Every one of my shell necklaces is a unique piece and one of a kind.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="grid" aria-label="Contact">
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:contact@mounttreasures.co.nz">contact@mounttreasures.co.nz</a></p>
+        <p class="small">© <span id="y"></span> Mount Treasures</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>mounttreasures.co.nz</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
